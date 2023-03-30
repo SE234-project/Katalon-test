@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pickled Shrimp with Creamy Spinach Dip</name>
+   <tag></tag>
+   <elementGuidId>fba8baf0-6f96-4453-9b42-5a861fc0a947</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appetizer']/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>94bffad7-621b-4a32-ade1-37260e3bbcca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>e87aa30a-a894-40a2-a3d8-a0bc7211fd06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pickled Shrimp with Creamy Spinach Dip</value>
+      <webElementGuid>f53d4f7c-0f2d-4a55-a0b4-9f81ce45d32c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appetizer&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>7033fcd8-dbff-4dd6-a462-91786af818a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appetizer']/div/div[3]/span</value>
+      <webElementGuid>5cc18f0f-da37-4fe2-ac3d-fd5fb6fef63e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[2]/following::span[1]</value>
+      <webElementGuid>90730ad7-8cd7-4fbc-b8d5-daf1c9615e01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2.70'])[1]/following::span[1]</value>
+      <webElementGuid>90d36df0-5b3a-4de8-99c0-cff7ee2e90b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$4.00'])[1]/preceding::span[1]</value>
+      <webElementGuid>b96de465-c35e-4bfb-a17d-472f032ce8ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pickled Shrimp with Creamy Spinach Dip']/parent::*</value>
+      <webElementGuid>b2db338b-910f-4b2a-8f26-347dee92098d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>19d967b0-4c93-4653-9e38-f9e107a0ea75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pickled Shrimp with Creamy Spinach Dip' or . = 'Pickled Shrimp with Creamy Spinach Dip')]</value>
+      <webElementGuid>6e338ef3-67e3-4262-934f-58adb42b9d1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

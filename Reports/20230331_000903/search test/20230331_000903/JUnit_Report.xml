@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="search test" time="93.612" tests="1" failures="0" errors="0">
+   <testsuite name="search test" tests="1" failures="0" errors="0" time="93.612" skipped="0" timestamp="2023-03-31 00:09:06" hostname="yyh - localhost" id="Test Suites/search test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/yyh/git/Katalon-test/Reports/20230331_000903/search test/20230331_000903"/>
+         <property name="logFiles" value="/Users/yyh/git/Katalon-test/Reports/20230331_000903/search test/20230331_000903/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yyh - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="0f9a34c1580b68ec07fbfd08d261a73e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test case search" time="93.146" classname="Test Cases/test case search" status="PASSED">
+         <system-out><![CDATA[2023-03-31 00:09:06 - [TEST_CASE][PASSED] - Test Cases/test case search: Test Cases/test case search
+
+2023-03-31 00:09:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-31 00:09:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-31 00:09:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-31 00:09:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-31 00:09:13 - [TEST_STEP][PASSED] - navigateToUrl("http://54.87.132.198:8086/"): Navigate to 'http://54.87.132.198:8086/' successfully
+
+2023-03-31 00:09:15 - [MESSAGE][PASSED] - Navigate to 'http://54.87.132.198:8086/' successfully
+
+2023-03-31 00:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/Link_Customer")): Object: 'Object Repository/page4/Page_/Link_Customer' is clicked on
+
+2023-03-31 00:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/Link_Customer' is clicked on
+
+2023-03-31 00:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/Link_table")): Object: 'Object Repository/page4/Page_/Link_table' is clicked on
+
+2023-03-31 00:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/Link_table' is clicked on
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - searchTextTestData = findTestData("Data Files/SearchTextTestData"): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - for ([i = 1, i <= searchTextTestData.getRowNumbers(), (i++)]): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text 'c' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:10 - [MESSAGE][PASSED] - Text 'c' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:10 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Sticky Baked Chicken Wings"), div1ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:10 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Caesar Salad Spears"), div2ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:11 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip"), div3ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:11 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry"), div4ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:12 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/button_Refresh Page")): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text 'w' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:19 - [MESSAGE][PASSED] - Text 'w' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:19 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Sticky Baked Chicken Wings"), div1ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:20 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:20 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip"), div3ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:20 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry"), div4ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pigs in a Blanket with Black Pepper Pastry' are matched.
+
+2023-03-31 00:10:21 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/button_Refresh Page")): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text 'd' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:24 - [MESSAGE][PASSED] - Text 'd' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:24 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Sticky Baked Chicken Wings"), div1ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Sticky Baked Chicken Wings' are matched.
+
+2023-03-31 00:10:24 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Caesar Salad Spears"), div2ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Caesar Salad Spears' are matched.
+
+2023-03-31 00:10:25 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip"), div3ExpectedText, OPTIONAL): Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page4/Page_/div_Pickled Shrimp with Creamy Spinach Dip' are matched.
+
+2023-03-31 00:10:25 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:25 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/button_Refresh Page")): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/button_Refresh Page")): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page4/Page_/button_Refresh Page")): Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page4/Page_/button_Refresh Page' is clicked on
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - searchText = searchTextTestData.getValue("searchText", i): null
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - div1ExpectedText = searchTextTestData.getValue("div1ExpectedText", i): null
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - div2ExpectedText = searchTextTestData.getValue("div2ExpectedText", i): null
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - div3ExpectedText = searchTextTestData.getValue("div3ExpectedText", i): null
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - div4ExpectedText = searchTextTestData.getValue("div4ExpectedText", i): null
+
+2023-03-31 00:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page4/Page_/input_My Order_search"), searchText): Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page4/Page_/input_My Order_search'
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - if (!(div1ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - if (!(div2ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - if (!(div3ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - if (!(div4ExpectedText.isEmpty())): null
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - if (i < searchTextTestData.getRowNumbers()): null
+
+2023-03-31 00:10:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-31 00:10:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-31 00:09:06 - [TEST_SUITE][PASSED] - search test: Test Cases/test case search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test search data</name>
+   <name>SearchTextTestData</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>2a1fe338-edc9-4529-a36e-f7203ced5370</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>c Sticky+Baked+Chicken+Wings Caesar+Salad+Spears Pickled+Shrimp+with+Creamy+Spinach+Dip Pigs+in+a+Blanket+with+Black+Pepper+Pastry</data>
+   <data>w Sticky+Baked+Chicken+Wings null Pickled+Shrimp+with+Creamy+Spinach+Dip Pigs+in+a+Blanket+with+Black+Pepper+Pastry</data>
+   <data>d Sticky+Baked+Chicken+Wings Caesar+Salad+Spears Pickled+Shrimp+with+Creamy+Spinach+Dip null</data>
    <data>null null null null null</data>
    <data>null null null null null</data>
    <data>null null null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>input</name>
-      <size>3</size>
+      <name>searchText</name>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>div1</name>
-      <size>3</size>
+      <name>div1ExpectedText</name>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>exp_div1</name>
-      <size>3</size>
+      <name>div2ExpectedText</name>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
-      <name>div2</name>
-      <size>3</size>
+      <name>div3ExpectedText</name>
+      <size>6</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
-      <name>exp_div2</name>
-      <size>3</size>
+      <name>div4ExpectedText</name>
+      <size>6</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

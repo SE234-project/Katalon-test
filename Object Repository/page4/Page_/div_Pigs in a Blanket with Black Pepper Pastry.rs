@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pigs in a Blanket with Black Pepper Pastry</name>
+   <tag></tag>
+   <elementGuidId>6b89c985-a70d-44c4-aa9d-f840680d5aac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appetizer']/div/div[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d88a110d-f540-477a-97c3-0717e75bb1f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>4c287d2b-14b2-4f05-b8f4-9d62ed9a645b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pigs in a Blanket with Black Pepper Pastry</value>
+      <webElementGuid>1cf56f7c-2545-453e-9940-d7389b876364</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appetizer&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>5c8672f6-c092-4d79-81cb-6fd777615a0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appetizer']/div/div[4]/span</value>
+      <webElementGuid>521e9c2d-0490-4339-924a-9b281f5f168b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[3]/following::span[1]</value>
+      <webElementGuid>fc397e66-6b7b-412e-b7b3-8e566fb2f50e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$4.00'])[1]/following::span[1]</value>
+      <webElementGuid>24f44003-1934-4ab0-bd81-ef5dd42b3c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$4.50'])[1]/preceding::span[1]</value>
+      <webElementGuid>2b4715e4-1621-4bbe-8406-db35b1bce9c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pigs in a Blanket with Black Pepper Pastry']/parent::*</value>
+      <webElementGuid>4db42274-cc3c-4238-975c-55aa8d346a4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>e5381abf-8d93-4350-a0c0-b13e93270fa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pigs in a Blanket with Black Pepper Pastry' or . = 'Pigs in a Blanket with Black Pepper Pastry')]</value>
+      <webElementGuid>e131f9aa-a914-4f71-8887-b59bbe67114c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

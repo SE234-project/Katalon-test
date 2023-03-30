@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+search test,Chrome 111.0.0.0,,,2023-03-31 00:02:26,2023-03-31 00:02:54,27.930s,ERROR
+,,,,,,,
+Test Cases/test case search,Chrome 111.0.0.0,,,2023-03-31 00:02:27,2023-03-31 00:02:54,27.482s,ERROR
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 00:02:27,2023-03-31 00:02:35,8.257s,PASSED
+"navigateToUrl(""http://54.87.132.198:8086/"")",Chrome 111.0.0.0,,,2023-03-31 00:02:35,2023-03-31 00:02:37,1.384s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_Customer""))",Chrome 111.0.0.0,,,2023-03-31 00:02:37,2023-03-31 00:02:43,5.835s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_table""))",Chrome 111.0.0.0,,,2023-03-31 00:02:43,2023-03-31 00:02:54,11.485s,PASSED
+"searchTextTestData = findTestData(""	Data Files/Test search data"")",Chrome 111.0.0.0,,,2023-03-31 00:02:54,2023-03-31 00:02:54,0.041s,ERROR

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+search test,Chrome 111.0.0.0,,,2023-03-30 23:29:26,2023-03-30 23:29:58,31.987s,ERROR
+,,,,,,,
+Test Cases/test case search,Chrome 111.0.0.0,,,2023-03-30 23:29:26,2023-03-30 23:29:58,31.540s,ERROR
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 23:29:27,2023-03-30 23:29:35,7.700s,PASSED
+"navigateToUrl(""http://54.87.132.198:8086/"")",Chrome 111.0.0.0,,,2023-03-30 23:29:35,2023-03-30 23:29:36,1.398s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_Customer""))",Chrome 111.0.0.0,,,2023-03-30 23:29:36,2023-03-30 23:29:45,9.111s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_table""))",Chrome 111.0.0.0,,,2023-03-30 23:29:45,2023-03-30 23:29:57,11.561s,PASSED
+"searchTextTestData = findTestData(""Data Files/Test search data"")",Chrome 111.0.0.0,,,2023-03-30 23:29:57,2023-03-30 23:29:57,0.018s,PASSED
+"expectedTextContents = [""c"":""Sticky Baked Chicken Wings,Caesar Salad Spears,Pickled Shrimp with Creamy Spinach Dip"", ""w"":""Sticky Baked Chicken Wings,Pickled Shrimp with Creamy Spinach Dip,Pigs in a Blanket with Black Pepper Pastry"", ... ]",Chrome 111.0.0.0,,,2023-03-30 23:29:57,2023-03-30 23:29:57,0.001s,PASSED
+"for ([i = 1, i <= searchTextTestData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-03-30 23:29:57,2023-03-30 23:29:58,1.295s,ERROR

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Caesar Salad Spears</name>
+   <tag></tag>
+   <elementGuidId>4583bb01-c803-4784-ab26-86559f8f4620</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appetizer']/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a2991f94-2ffb-4ebb-af73-439e548db4d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>2ec3dd9b-f132-4411-adab-115663fb0c22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Caesar Salad Spears</value>
+      <webElementGuid>cdc1fad9-a3aa-415c-849c-cd4fde2f2d0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appetizer&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>5ce3f305-7d7e-4f5b-9a05-01a655bcfbc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appetizer']/div/div[2]/span</value>
+      <webElementGuid>083bfdc2-f196-465d-b153-0a515da51ff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[1]/following::span[1]</value>
+      <webElementGuid>e48107b3-4e72-4b58-a66a-a8a9677cef04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$3.33'])[1]/following::span[1]</value>
+      <webElementGuid>d3a36574-fba0-4ce7-9597-ae2121663317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2.70'])[1]/preceding::span[1]</value>
+      <webElementGuid>0bb95152-d9ee-42b0-a36c-8581fb384cf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Caesar Salad Spears']/parent::*</value>
+      <webElementGuid>9dd45846-fa9a-4868-ae95-9b3dc6ee3d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>beaa44c6-b5a8-4cd8-90da-950358698ca6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Caesar Salad Spears' or . = 'Caesar Salad Spears')]</value>
+      <webElementGuid>2d9ffe00-3e0e-4814-b6b2-afa3bbf2155b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

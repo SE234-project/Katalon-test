@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+search test,Chrome 111.0.0.0,,,2023-03-31 00:08:11,2023-03-31 00:08:21,10.525s,FAILED
+,,,,,,,
+Test Cases/test case search,Chrome 111.0.0.0,,,2023-03-31 00:08:11,2023-03-31 00:08:21,10.062s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 00:08:11,2023-03-31 00:08:19,7.581s,PASSED
+"navigateToUrl(""http://54.87.132.198:8086/"")",Chrome 111.0.0.0,,,2023-03-31 00:08:19,2023-03-31 00:08:21,2.007s,FAILED

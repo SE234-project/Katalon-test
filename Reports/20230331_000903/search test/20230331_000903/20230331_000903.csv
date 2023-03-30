@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+search test,Chrome 111.0.0.0,,,2023-03-31 00:09:06,2023-03-31 00:10:39,1m - 33.612s,PASSED
+,,,,,,,
+Test Cases/test case search,Chrome 111.0.0.0,,,2023-03-31 00:09:06,2023-03-31 00:10:39,1m - 33.146s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-31 00:09:07,2023-03-31 00:09:13,6.739s,PASSED
+"navigateToUrl(""http://54.87.132.198:8086/"")",Chrome 111.0.0.0,,,2023-03-31 00:09:13,2023-03-31 00:09:15,1.681s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_Customer""))",Chrome 111.0.0.0,,,2023-03-31 00:09:15,2023-03-31 00:09:22,6.807s,PASSED
+"click(findTestObject(""Object Repository/page4/Page_/Link_table""))",Chrome 111.0.0.0,,,2023-03-31 00:09:22,2023-03-31 00:10:09,46.613s,PASSED
+"searchTextTestData = findTestData(""Data Files/SearchTextTestData"")",Chrome 111.0.0.0,,,2023-03-31 00:10:09,2023-03-31 00:10:09,0.026s,PASSED
+"for ([i = 1, i <= searchTextTestData.getRowNumbers(), (i++)])",Chrome 111.0.0.0,,,2023-03-31 00:10:09,2023-03-31 00:10:39,30.693s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-31 00:10:39,2023-03-31 00:10:39,0.125s,PASSED
