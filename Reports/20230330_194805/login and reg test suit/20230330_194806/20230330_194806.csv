@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login and reg test suit,Chrome 111.0.0.0,,,2023-03-30 19:48:09,2023-03-30 19:49:32,1m - 22.449s,PASSED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:48:10,2023-03-30 19:48:40,30.211s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:48:10,2023-03-30 19:48:18,7.587s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:48:18,2023-03-30 19:48:19,1.364s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:48:19,2023-03-30 19:48:27,7.596s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:48:27,2023-03-30 19:48:28,1.483s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:48:28,2023-03-30 19:48:29,1.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:48:29,2023-03-30 19:48:30,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_/Button_register""))",Chrome 111.0.0.0,,,2023-03-30 19:48:30,2023-03-30 19:48:31,0.718s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_back to mainpage""))",Chrome 111.0.0.0,,,2023-03-30 19:48:31,2023-03-30 19:48:32,1.296s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:48:32,2023-03-30 19:48:34,1.460s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:48:34,2023-03-30 19:48:35,1.441s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:48:35,2023-03-30 19:48:36,0.557s,PASSED
+"click(findTestObject(""Page_/Button_login""))",Chrome 111.0.0.0,,,2023-03-30 19:48:36,2023-03-30 19:48:36,0.515s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_/div_oreder_title""), ""Order lists:"")",Chrome 111.0.0.0,,,2023-03-30 19:48:36,2023-03-30 19:48:40,3.813s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 19:48:40,2023-03-30 19:48:40,0.098s,PASSED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:48:40,2023-03-30 19:49:07,26.619s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:48:40,2023-03-30 19:48:44,4.391s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:48:44,2023-03-30 19:48:46,1.366s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:48:46,2023-03-30 19:48:53,7.159s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:48:53,2023-03-30 19:48:54,1.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:48:54,2023-03-30 19:48:56,1.287s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:48:56,2023-03-30 19:48:56,0.650s,PASSED
+"click(findTestObject(""Object Repository/Page_/Button_register""))",Chrome 111.0.0.0,,,2023-03-30 19:48:56,2023-03-30 19:48:57,0.696s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_back to mainpage""))",Chrome 111.0.0.0,,,2023-03-30 19:48:57,2023-03-30 19:48:58,1.483s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:48:58,2023-03-30 19:49:00,1.611s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:49:00,2023-03-30 19:49:01,1.392s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:49:01,2023-03-30 19:49:02,0.620s,PASSED
+"click(findTestObject(""Page_/Button_login""))",Chrome 111.0.0.0,,,2023-03-30 19:49:02,2023-03-30 19:49:03,0.523s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_/div_oreder_title""), ""Order lists:"")",Chrome 111.0.0.0,,,2023-03-30 19:49:03,2023-03-30 19:49:07,3.961s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 19:49:07,2023-03-30 19:49:07,0.086s,PASSED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:49:07,2023-03-30 19:49:32,25.008s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:49:07,2023-03-30 19:49:11,4.291s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:49:11,2023-03-30 19:49:12,1.373s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:49:12,2023-03-30 19:49:19,6.474s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:49:19,2023-03-30 19:49:20,1.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:49:20,2023-03-30 19:49:21,1.296s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:49:21,2023-03-30 19:49:22,0.647s,PASSED
+"click(findTestObject(""Object Repository/Page_/Button_register""))",Chrome 111.0.0.0,,,2023-03-30 19:49:22,2023-03-30 19:49:23,0.596s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_back to mainpage""))",Chrome 111.0.0.0,,,2023-03-30 19:49:23,2023-03-30 19:49:24,1.441s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:49:24,2023-03-30 19:49:26,1.535s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:49:26,2023-03-30 19:49:27,1.437s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:49:27,2023-03-30 19:49:28,0.536s,PASSED
+"click(findTestObject(""Page_/Button_login""))",Chrome 111.0.0.0,,,2023-03-30 19:49:28,2023-03-30 19:49:28,0.531s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_/div_oreder_title""), ""Order lists:"")",Chrome 111.0.0.0,,,2023-03-30 19:49:28,2023-03-30 19:49:32,3.376s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-30 19:49:32,2023-03-30 19:49:32,0.084s,PASSED

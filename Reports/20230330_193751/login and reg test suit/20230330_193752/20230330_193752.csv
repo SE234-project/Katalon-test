@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login and reg test suit,Chrome 111.0.0.0,,,2023-03-30 19:37:55,2023-03-30 19:38:45,50.282s,FAILED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:37:56,2023-03-30 19:38:16,19.888s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:37:56,2023-03-30 19:38:03,6.568s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:38:03,2023-03-30 19:38:04,1.372s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:38:04,2023-03-30 19:38:12,8.326s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:38:12,2023-03-30 19:38:14,1.461s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:38:14,2023-03-30 19:38:15,1.200s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:38:15,2023-03-30 19:38:16,0.540s,FAILED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:38:16,2023-03-30 19:38:29,13.370s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:38:16,2023-03-30 19:38:21,5.110s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:38:21,2023-03-30 19:38:22,1.319s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:38:22,2023-03-30 19:38:26,3.920s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:38:26,2023-03-30 19:38:27,1.364s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:38:27,2023-03-30 19:38:29,1.188s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:38:29,2023-03-30 19:38:29,0.428s,FAILED
+,,,,,,,
+Test Cases/test register and login,Chrome 111.0.0.0,,,2023-03-30 19:38:29,2023-03-30 19:38:45,16.348s,FAILED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 19:38:29,2023-03-30 19:38:33,4.337s,PASSED
+"navigateToUrl(""http://3.83.16.146:8086/"")",Chrome 111.0.0.0,,,2023-03-30 19:38:33,2023-03-30 19:38:35,1.317s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_go to login page""))",Chrome 111.0.0.0,,,2023-03-30 19:38:35,2023-03-30 19:38:42,7.605s,PASSED
+"click(findTestObject(""Object Repository/Page_/Link_register""))",Chrome 111.0.0.0,,,2023-03-30 19:38:42,2023-03-30 19:38:44,1.340s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Username""), UserName)",Chrome 111.0.0.0,,,2023-03-30 19:38:44,2023-03-30 19:38:45,1.288s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password""), Password)",Chrome 111.0.0.0,,,2023-03-30 19:38:45,2023-03-30 19:38:45,0.446s,FAILED
