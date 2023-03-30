@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ROASTED PORTOBELLO TOPPED WITH SPICY S_87403c</name>
+   <tag></tag>
+   <elementGuidId>da828a73-8c12-4db6-a128-84ad6a372b2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainDish']/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d3b309ae-411c-4465-b847-58e6092918dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>7f27f41a-28f7-4df9-92c4-de5ff0ab0a87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ROASTED PORTOBELLO TOPPED WITH SPICY SHRIMP BRUSCHETTA (PALEO/WHOLE30)</value>
+      <webElementGuid>37cd46b2-69b9-4feb-9acb-afa72a0b42cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainDish&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>1f73a2b4-4eb9-42ab-a860-52b81248cb6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainDish']/div/div[2]/span</value>
+      <webElementGuid>2279ac82-72ba-497d-b096-a408e20c5e82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[5]/following::span[1]</value>
+      <webElementGuid>6c105614-92e7-4a5e-90db-e73f74f2efd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.99'])[1]/following::span[1]</value>
+      <webElementGuid>971506ca-ea3a-4780-8ca2-56fc51773651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$11.99'])[1]/preceding::span[1]</value>
+      <webElementGuid>5d953235-460f-4b2e-ab09-8ab3338fc71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ROASTED PORTOBELLO TOPPED WITH SPICY SHRIMP BRUSCHETTA (PALEO/WHOLE30)']/parent::*</value>
+      <webElementGuid>7165b6d8-141f-4d27-99d8-8f17346a70f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div[2]/span</value>
+      <webElementGuid>d252e543-4726-4c7f-ba50-56705bc8fdc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ROASTED PORTOBELLO TOPPED WITH SPICY SHRIMP BRUSCHETTA (PALEO/WHOLE30)' or . = 'ROASTED PORTOBELLO TOPPED WITH SPICY SHRIMP BRUSCHETTA (PALEO/WHOLE30)')]</value>
+      <webElementGuid>39e8ce0e-aa2e-418c-b6da-98233429b89e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

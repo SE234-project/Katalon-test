@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+menu test,Chrome 111.0.0.0,,,2023-03-30 22:30:22,2023-03-30 22:30:52,29.576s,ERROR
+,,,,,,,
+Test Cases/test menu function,Chrome 111.0.0.0,,,2023-03-30 22:30:23,2023-03-30 22:30:52,29.111s,ERROR
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-30 22:30:23,2023-03-30 22:30:31,8.164s,PASSED
+"navigateToUrl(""http://54.87.132.198:8086/"")",Chrome 111.0.0.0,,,2023-03-30 22:30:31,2023-03-30 22:30:33,1.497s,PASSED
+"click(findTestObject(""Object Repository/page3/Page_/Link_Customer""))",Chrome 111.0.0.0,,,2023-03-30 22:30:33,2023-03-30 22:30:35,1.745s,PASSED
+"click(findTestObject(""Object Repository/page3/Page_/Link_table1""))",Chrome 111.0.0.0,,,2023-03-30 22:30:35,2023-03-30 22:30:51,16.289s,PASSED
+"click(findTestObject(""Object Repository/page3/Page_/Link_Menu""))",Chrome 111.0.0.0,,,2023-03-30 22:30:51,2023-03-30 22:30:52,0.867s,PASSED
+"dishesTestData = findTestData(""TestData/DishTestData"")",Chrome 111.0.0.0,,,2023-03-30 22:30:52,2023-03-30 22:30:52,0.043s,ERROR
