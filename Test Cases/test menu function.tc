@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test menu function</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1e11db5-e497-4c28-853c-7f9edc03fa93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d3574e2-952c-4917-bae5-0fadd904d4ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d3574e2-952c-4917-bae5-0fadd904d4ad</id>
+      <masked>false</masked>
+      <name>dish</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GRILLED CHICKEN</name>
+   <tag></tag>
+   <elementGuidId>7386e4aa-7e1f-4d9d-98d9-7a222d1bad59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainDish']/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1769bcc9-f1d1-4bdf-b9ac-8fbf239ee934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>48bbfeb5-2912-4a79-882a-e0d3f9a19f8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GRILLED CHICKEN WITH FRESH CHERRY SALSA</value>
+      <webElementGuid>369d9498-73ba-4f08-ae48-d2b8244a3a29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainDish&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>8fdc2cf2-91ab-4ab1-a627-da2a95fbeea7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainDish']/div/div[3]/span</value>
+      <webElementGuid>4040e281-8020-4205-a467-12155f9c52b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[6]/following::span[1]</value>
+      <webElementGuid>5cd92318-b14d-4d43-adc3-b78492f29991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$11.99'])[1]/following::span[1]</value>
+      <webElementGuid>9e236395-009d-4195-9bf5-05f05c0409f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$9.00'])[1]/preceding::span[1]</value>
+      <webElementGuid>7e0f4cd1-5d02-4105-9781-1b59da670a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GRILLED CHICKEN WITH FRESH CHERRY SALSA']/parent::*</value>
+      <webElementGuid>3b75b564-e138-40e6-92ef-13f49a9a4369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div[3]/span</value>
+      <webElementGuid>23c9b5a7-0b38-4bcd-a0f5-e36575d7f573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'GRILLED CHICKEN WITH FRESH CHERRY SALSA' or . = 'GRILLED CHICKEN WITH FRESH CHERRY SALSA')]</value>
+      <webElementGuid>69ebae37-6468-4068-a6fe-e8c8090cbe74</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

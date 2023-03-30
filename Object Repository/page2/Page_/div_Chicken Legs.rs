@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Chicken Legs</name>
+   <tag></tag>
+   <elementGuidId>5a70fecf-a0aa-457a-b647-4f103f62ced0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainDish']/div/div[4]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>78b27e7e-7ad6-41a8-8931-907a89c4290f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shop-item-title</value>
+      <webElementGuid>fc981707-483f-4659-a40b-d964ad8b2e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Braised Chicken Legs With Grapes and Fennel</value>
+      <webElementGuid>4be641db-fc6a-49bf-85dc-65222142190a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainDish&quot;)/div[@class=&quot;shop-items&quot;]/div[@class=&quot;shop-item&quot;]/span[@class=&quot;shop-item-title&quot;]</value>
+      <webElementGuid>1af9b1ab-8f6b-42e7-8b24-8310918f5fb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainDish']/div/div[4]/span</value>
+      <webElementGuid>dbf96c37-a616-415c-ab6b-88129267046b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD TO CART'])[7]/following::span[1]</value>
+      <webElementGuid>2154d45a-ec2c-492c-9ba8-e1949533a490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$9.00'])[1]/following::span[1]</value>
+      <webElementGuid>59ceac9d-929f-4e9f-b12d-676d5d5c7649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$7.60'])[1]/preceding::span[1]</value>
+      <webElementGuid>e480431d-888c-4de9-9010-3be6770a8159</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Braised Chicken Legs With Grapes and Fennel']/parent::*</value>
+      <webElementGuid>2e74674f-7d63-46b2-b0c2-630a350bf8e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div[4]/span</value>
+      <webElementGuid>6a0d79d6-0d3b-42b9-844e-1778f4a0839d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Braised Chicken Legs With Grapes and Fennel' or . = 'Braised Chicken Legs With Grapes and Fennel')]</value>
+      <webElementGuid>177c355b-8ef4-4f6d-9aa1-225f7027f5c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

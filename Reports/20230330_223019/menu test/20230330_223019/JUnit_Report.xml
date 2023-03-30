@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="menu test" time="29.576" tests="1" failures="0" errors="1">
+   <testsuite name="menu test" tests="1" failures="0" errors="1" time="29.576" skipped="0" timestamp="2023-03-30 22:30:22" hostname="yyh - localhost" id="Test Suites/menu test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/yyh/git/Katalon-test/Reports/20230330_223019/menu test/20230330_223019"/>
+         <property name="logFiles" value="/Users/yyh/git/Katalon-test/Reports/20230330_223019/menu test/20230330_223019/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yyh - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="061680ab9e2a4e98fa5b26e01f1735d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test menu function" time="29.111" classname="Test Cases/test menu function" status="ERROR">
+         <error type="ERROR" message="Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)
+"/>
+         <system-out><![CDATA[2023-03-30 22:30:23 - [TEST_CASE][ERROR] - Test Cases/test menu function: Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)
+
+
+2023-03-30 22:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-30 22:30:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-30 22:30:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-30 22:30:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-30 22:30:31 - [TEST_STEP][PASSED] - navigateToUrl("http://54.87.132.198:8086/"): Navigate to 'http://54.87.132.198:8086/' successfully
+
+2023-03-30 22:30:33 - [MESSAGE][PASSED] - Navigate to 'http://54.87.132.198:8086/' successfully
+
+2023-03-30 22:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page3/Page_/Link_Customer")): Object: 'Object Repository/page3/Page_/Link_Customer' is clicked on
+
+2023-03-30 22:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/page3/Page_/Link_Customer' is clicked on
+
+2023-03-30 22:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page3/Page_/Link_table1")): Object: 'Object Repository/page3/Page_/Link_table1' is clicked on
+
+2023-03-30 22:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/page3/Page_/Link_table1' is clicked on
+
+2023-03-30 22:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page3/Page_/Link_Menu")): Object: 'Object Repository/page3/Page_/Link_Menu' is clicked on
+
+2023-03-30 22:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/page3/Page_/Link_Menu' is clicked on
+
+2023-03-30 22:30:52 - [TEST_STEP][ERROR] - dishesTestData = findTestData("TestData/DishTestData"): Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)
+
+
+2023-03-30 22:30:52 - [MESSAGE][ERROR] - Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-03-30 22:30:23 - [TEST_CASE][ERROR] - Test Cases/test menu function: Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-30 22:30:22 - [TEST_SUITE][ERROR] - menu test: Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-03-30 22:30:22 - [TEST_SUITE][ERROR] - menu test: Test Cases/test menu function FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/TestData/DishTestData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/TestData/DishTestData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.call(Unknown Source)
+	at test menu function.run(test menu function:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680190219624.run(TempTestSuite1680190219624.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
