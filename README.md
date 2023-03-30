@@ -14,6 +14,8 @@ script with change name object
 
 ![Image text](https://github.com/SE234-project/Katalon-test/blob/main/img/1-3.png)
 
+## Katalon-test-case-suit2
+
 test for menu function
 
 test report
